@@ -42,7 +42,16 @@ class ProductsTableViewController: UITableViewController {
     override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
         if segue.identifier == "ShowProduct" {
             let productVC = segue.destinationViewController as? ProductViewController
-            productVC?.productName = "Really old phone"
+            
+            let cell = sender as? UITableViewCell
+            
+            if let c = cell {
+                let indexPath = tableView.indexPathForCell(c)
+                if let ip = indexPath {
+                    let productName = productNames?[ip.row]
+                    productVC?.productName = productName
+                }
+            }
         }
     }
 }
