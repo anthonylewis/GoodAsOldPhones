@@ -15,6 +15,8 @@
 		EA39777C1C8E6BCB00CB84D6 /* ProductViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA39777B1C8E6BCB00CB84D6 /* ProductViewController.swift */; };
 		EA70E5E31CC72DF400218865 /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA70E5E21CC72DF400218865 /* Product.swift */; };
 		EAB370361C93A46500DF1C35 /* ContactViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAB370351C93A46500DF1C35 /* ContactViewController.swift */; };
+		EABDEAB41CCD6036006FCE81 /* Orders.swift in Sources */ = {isa = PBXBuildFile; fileRef = EABDEAB31CCD6036006FCE81 /* Orders.swift */; };
+		EABDEAB61CCD6084006FCE81 /* Order.swift in Sources */ = {isa = PBXBuildFile; fileRef = EABDEAB51CCD6084006FCE81 /* Order.swift */; };
 		EADCB8591CC860D800E892E2 /* CartTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EADCB8581CC860D800E892E2 /* CartTableViewController.swift */; };
 /* End PBXBuildFile section */
 
@@ -29,6 +31,8 @@
 		EA39777B1C8E6BCB00CB84D6 /* ProductViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductViewController.swift; sourceTree = "<group>"; };
 		EA70E5E21CC72DF400218865 /* Product.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
 		EAB370351C93A46500DF1C35 /* ContactViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactViewController.swift; sourceTree = "<group>"; };
+		EABDEAB31CCD6036006FCE81 /* Orders.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Orders.swift; sourceTree = "<group>"; };
+		EABDEAB51CCD6084006FCE81 /* Order.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Order.swift; sourceTree = "<group>"; };
 		EADCB8581CC860D800E892E2 /* CartTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CartTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -72,6 +76,8 @@
 				EA0C252E1C9647C2007101AA /* ProductsTableViewController.swift */,
 				EA70E5E21CC72DF400218865 /* Product.swift */,
 				EADCB8581CC860D800E892E2 /* CartTableViewController.swift */,
+				EABDEAB31CCD6036006FCE81 /* Orders.swift */,
+				EABDEAB51CCD6084006FCE81 /* Order.swift */,
 			);
 			path = GoodAsOldPhones;
 			sourceTree = "<group>";
@@ -148,6 +154,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				EA39777C1C8E6BCB00CB84D6 /* ProductViewController.swift in Sources */,
+				EABDEAB41CCD6036006FCE81 /* Orders.swift in Sources */,
+				EABDEAB61CCD6084006FCE81 /* Order.swift in Sources */,
 				EADCB8591CC860D800E892E2 /* CartTableViewController.swift in Sources */,
 				EA0C252F1C9647C2007101AA /* ProductsTableViewController.swift in Sources */,
 				EA70E5E31CC72DF400218865 /* Product.swift in Sources */,
